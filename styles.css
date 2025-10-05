@@ -4,10 +4,19 @@ padding: 0;
 box-sizing: border-box;
 }
 
+body{
+background-color: #fbf5fd;
+color: #464347;
+padding: 24px;
+font-family: Geneva, Tahoma, sans-serif;
+}
+
 .title{
   font-size: 48px;
   text-align: center;
-  font-family: 'papyrus', Courier, monospace;
+  font-family: 'Lucida Sans', verdana, sans-serif;
+  margin: 16px;
+  color: #660792;
 }
 
 a{
@@ -15,11 +24,48 @@ a{
   color: #660792;
 }
 
-li{
+.recipes-list li{
   padding: 16px;
   margin: 8px;
-  background-color: #ddb3f1;
+  background-color: #ead2f5;
   border: 2px solid #660792;
   text-align: center;
   border-radius: 4px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+  width: auto;
+  height: 300px;
+  border: 2px solid #660792;
+  border-radius: 16px;
+  margin: 16px auto;
+  display: block;
+}
+
+ li{
+  padding: 8px 0;
+  list-style: none;
+}
+
+.ingredients, .steps{
+  border: 0.5px solid #d1a8de;
+  background-color: #f0e4f5;
+  padding: 16px;
+  border-radius: 16px;
+  margin: 16px auto;
+  width: 80vw;
+  max-width: 600px;
+}
+
+.steps li{
+list-style: decimal;
+border-bottom: 1px solid #d1a8de;
+margin: 16px;
+/* padding: ; */
+}
+
+p > strong {
+  color: #660792;
+  font-weight: 900;
+  font-family: verdana, Tahoma, sans-serif;
 }
