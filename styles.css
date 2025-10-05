@@ -1,3 +1,25 @@
 * {
-  color: purple;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.title{
+  font-size: 48px;
+  text-align: center;
+  font-family: 'papyrus', Courier, monospace;
+}
+
+a{
+  /* text-decoration: none; */
+  color: #660792;
+}
+
+li{
+  padding: 16px;
+  margin: 8px;
+  background-color: #ddb3f1;
+  border: 2px solid #660792;
+  text-align: center;
+  border-radius: 4px;
 }
